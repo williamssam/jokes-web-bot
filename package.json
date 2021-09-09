@@ -1,0 +1,16 @@
+{
+	"name": "jokes-web-bot",
+	"version": "1.0.0",
+	"description": "This is an open source project from [DevProjects](http://www.codementor.io/projects). Feedback and questions are welcome!",
+	"main": "index.js",
+	"scripts": {
+		"deploy": "gh-pages -d dist"
+	},
+	"keywords": [],
+	"author": "Williams Samuel",
+	"homepage": "https://williamssam.github.io/jokes-web-api",
+	"license": "ISC",
+	"dependencies": {
+		"gh-pages": "^3.2.3"
+	}
+}
