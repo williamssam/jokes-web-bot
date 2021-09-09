@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="favicon-32x32.png" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Jokes Bot</title>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Are you ready to hear a joke? 🤔</h2>
+
+			<!-- languague/accent -->
+			<select id="select-voices">
+				<option disabled selected value="">Select a voice</option>
+			</select>
+
+			<!-- joke get inserted here -->
+			<div>
+				<article id="joke">
+					Click the button below or press 'j' on your keyboard to hear
+					a joke and don't forget to turn your volume on.
+				</article>
+
+				<button id="btn">Tell me a joke</button>
+			</div>
+
+			<footer>
+				With 💗 from Williams Samuel. Made with
+				<a href="https://sv443.net/jokeapi/v2/">Jokes Api</a> and
+				speechSynthesis Api
+			</footer>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	gap: 2rem;
+	text-align: center;
+
+	/* background: var(--main-clr); */
+	background-color: #6b0f1a;
+	background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+
+	color: #fff;
+}
+
+.container {
+	--main-clr: #1a1110;
+
+	max-width: 500px;
+	padding: 1.5rem 0.5rem;
+}
+
+h2 {
+	font-size: clamp(3rem, 3vw, 5rem);
+	font-weight: 900;
+}
+
+/* jokes section */
+article {
+	background-color: var(--main-clr);
+	margin-top: 0.7rem;
+	line-height: 1.6;
+	padding: 1rem;
+	border-radius: 0.2rem;
+}
+
+/* select menu */
+.select-container {
+	display: flex;
+	gap: 2rem;
+}
+select {
+	/* appearance: none; */
+	margin-top: 3rem;
+	outline: 0;
+	background: #fff;
+	background-image: none;
+	font-size: inherit;
+	font-family: inherit;
+	width: 100%;
+	height: 100%;
+	padding: 0.5rem 1rem;
+	color: black;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.select {
+	position: relative;
+	display: block;
+	width: 15em;
+	height: 2em;
+	line-height: 3;
+	overflow: hidden;
+	border-radius: 0.25em;
+	padding-bottom: 10px;
+}
+
+button {
+	all: unset;
+	padding: 1rem 2rem;
+	text-transform: uppercase;
+	/* background: #0f0f0f; */
+	border: 2px solid #fff;
+	border-radius: 0.2rem;
+	letter-spacing: 5px;
+	margin-top: 3rem;
+	color: #fff;
+	font-weight: bold;
+	transition: background 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+button:hover {
+	background: var(--main-clr);
+	border: 2px solid var(--main-clr);
+	/* border: none; */
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+footer {
+	margin-top: 3rem;
+}
+
+footer a {
+	color: inherit;
+}
