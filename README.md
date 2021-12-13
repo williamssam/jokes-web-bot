@@ -14,7 +14,7 @@ I made use of [Jokes API](https://sv443.net/jokeapi/v2/) and SpeechSynthesis API
 
 ![](screenshot.png)
 
--   Live Demo: [Jokes Web Bot]([Jokes Web Bot](https://williamssam.github.io/jokes-web-bot/))
+-   Live Demo: [Jokes Web Bot](https://williamssam.github.io/jokes-web-bot/)
 
 ## License
 
