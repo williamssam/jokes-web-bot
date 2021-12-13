@@ -8,7 +8,7 @@ Find the project requirements here: [Joke telling bot web app](https://www.codem
 
 Built with HTML, CSS and Vanilla JS
 
-I made use of [Jokes API](https://sv443.net/jokeapi/v2/) and SpeechSynthesis API in the browser to pronounce the jokes.
+I made use of [Jokes API](https://sv443.net/jokeapi/v2/) and SpeechSynthesis API in the browser to read out the jokes.
 
 ## Screenshots and demo
 
